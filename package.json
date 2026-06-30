@@ -1,0 +1,36 @@
+{
+  "name": "pi-team-prodi-obe",
+  "version": "0.1.0",
+  "description": "Pi extension untuk orkestrasi tim Program Studi berbasis OBE (Outcome-Based Education)",
+  "author": "agusbyna (https://github.com/agusbyna)",
+  "contributors": ["mannnrachman"],
+  "license": "MIT",
+  "keywords": ["pi-package", "obe", "pendidikan", "program-studi", "akademik"],
+  "type": "module",
+  "pi": {
+    "extensions": ["./index.ts"],
+    "skills": ["./skills"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-agent-core": "*",
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-agent-core": { "optional": true },
+    "@earendil-works/pi-ai": { "optional": true },
+    "@earendil-works/pi-coding-agent": { "optional": true },
+    "@earendil-works/pi-tui": { "optional": true },
+    "typebox": { "optional": true }
+  },
+  "devDependencies": {
+    "@earendil-works/pi-agent-core": "*",
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*",
+    "typescript": "^5.9.0"
+  }
+}
